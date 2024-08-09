@@ -1,3 +1,16 @@
-// run `node index.js` in the terminal
+function sayHi() {
+    console.log(name);
+    console.log(age);
+    var name = 'javascript';
+    let age = 21;
+  }
+  
+//   sayHi();
 
-console.log(`Hello Node.js v${process.versions.node}!`);
+function loopTest(){
+    for (var i = 0; i < 3; i++) {
+        setTimeout(() => console.log(i), 1);
+      }
+}
+
+// loopTest();
