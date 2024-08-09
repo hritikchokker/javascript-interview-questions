@@ -113,6 +113,13 @@ function timeOutExp(timeout){
  *   */ 
 
 
+function fetchDetails(){
+    const idsArr = [1,2,3,4,5,6,7,8,9,10];
+    // api url = https://jsonplaceholder.typicode.com/todos/1
+
+    // todo => complete this function such that it calls all these apis concurrently and returns the result in array
+}
+
 
 
 
