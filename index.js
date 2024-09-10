@@ -114,7 +114,11 @@ function anotherExample(){
     console.log('8');
 }
 
-anotherExample();
+// anotherExample();
+
+
+
+
 
 
 // timeOutExp();
