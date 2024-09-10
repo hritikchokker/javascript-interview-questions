@@ -92,6 +92,44 @@ function sum(a,b){
 
 
 
+function anotherExample(){
+    console.log('1');
+    setTimeout(()=>{
+        console.log('2')
+    },2000)    
+    setTimeout(()=>{
+        console.log('3')
+    },0)
+
+    new Promise(()=>{
+        console.log('4');
+    }).then(()=>{
+        console.log('5');
+    })
+    Promise.resolve(()=>{
+        console.log('6');
+    }).then(()=>{
+        console.log('7');
+    });
+    console.log('8');
+}
+
+anotherExample();
+
+
+// timeOutExp();
+
+
+
+// create a calculator function in such a way that
+// calc(10).add(5).add(5).result() // output => 20
+// calc(20).add(10).sub(7).result() // output =>  23
+
+function calc(){
+    // code here
+}
+
+
 function timeOutExp(timeout){
     console.log('one');
     setTimeout(()=>{
@@ -99,10 +137,6 @@ function timeOutExp(timeout){
     },timeout)
     console.log('three');
 }
-
-// timeOutExp();
-
-
 
 /**
  * modify this timeOutExp in such a way that no matter how much timeout is passed
